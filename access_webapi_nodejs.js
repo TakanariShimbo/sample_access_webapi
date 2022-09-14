@@ -20,10 +20,10 @@ async function access_webapi(){
 	};
 
 	// requests, and check result
-	res = await axios.post(webapi_url, data_send, {'headers': headers});
-	console.log(res.data)
+	let res = await axios.post(webapi_url, data_send, {'headers': headers});
+	console.log(res.data);
 }
 
 
 // run
-access_webapi()
+access_webapi();
