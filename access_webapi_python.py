@@ -5,9 +5,10 @@ import requests
 def access_webapi():
     # define webapi_url
     # webapi_url = 'https://sample-webapi-nodejs.glitch.me/api/'
-    webapi_url = 'https://hmkc1220.pythonanywhere.com/api/'
+    # webapi_url = 'https://hmkc1220.pythonanywhere.com/api/'
     # webapi_url = 'https://script.google.com/macros/s/AKfycbwYYw-JWVuzWeH2nXFEbodv19COIl45X59MdJe-XDkB4pXpEhBUe_iJYb0YvXyqewGk/exec'
-
+    webapi_url = 'https://sample-webapi-nextjs.vercel.app/api/sample/'
+    
     # prepare data_send
     data_send = {
         'value1': 'test_value1',
